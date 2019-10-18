@@ -1,4 +1,4 @@
-name,age=input("Enter name and age with , seperated").split(",")
+name,age=input("Enter name and age with space seperated").split()
 age=int(age)
 name=name.lower()
 if name[0]=="a" and age>=10:
